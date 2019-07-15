@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WHATS MY IP</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    
+
+    <h1 id="title">WHATS MY IP?</h1>
+
+<div id="outer-form">
+<label id="name-label" for="name">Your IP Address Is:</label>
+  <h2 id="IP"></h2>
+          <table id="georesults">
+    <tr>
+        <td class="formlabel">Country:</td>
+        <td class="formtext" id="COUNTRY"></td>
+    </tr>
+    <tr>
+        <td class="formlabel">Region/State/Province:</td>
+        <td class="formtext" id="STATE"></td>
+    </tr>
+    <tr>
+        <td class="formlabel">City:</td>
+        <td class="formtext" id="CITY"></td>
+    </tr>
+    <tr>
+        <td class="formlabel">Postal Code:</td>
+        <td class="formtext" id="POSTAL"></td>
+    </tr>
+    <tr>
+        <td class="formlabel">Latitude:</td>
+        <td class="formtext" id="LAT"></td>
+    </tr>
+    <tr>
+        <td class="formlabel">Longitude:</td>
+        <td class="formtext" id="LONG"></td>
+    </tr>
+    <tr>
+        <td class="formlabel">ISP:</td>
+        <td class="formtext"></td>
+    </tr>
+</table>
+<br>
+<div id="map"></div>
+
+            <div id="otherlookups">
+        <p><strong>Perform Other Lookups on </strong><strong id="IP2"></strong> <br />
+            <a href="/lookup/geoip/8.8.8.8/">GeoIP</a> | <a href="/lookup/reverse/8.8.8.8/">Reverse DNS</a> | <a href="/lookup/blocking/8.8.8.8/">Blocking List/Spam</a></p>
+    </div>
+
+    </div>
+</div>  
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    async defer></script>
+
+<script src="js/main.js"></script>
+  </body>
+</html>

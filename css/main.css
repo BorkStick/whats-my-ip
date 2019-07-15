@@ -1,0 +1,120 @@
+body {
+  background-color: #3c4556;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  min-width: 320px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type='text'] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  color: grey;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background-color: #bd93f9;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.btn-group button {
+  background-color: #4caf50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  height: 50px;
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 20px;
+  color: #50fa7b;
+}
+#name-label {
+  float: left;
+  font-weight: bold;
+}
+
+#outer-form {
+  background-color: #c2c4c9;
+  margin: 0 auto;
+  width: 75%;
+  max-width: 600px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.footer {
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1e1f26;
+  color: white;
+  text-align: center;
+}
+h2 {
+  background-color: #fff;
+  border: 1px dotted #ccc;
+  font-size: 2.5em;
+  padding: 10px;
+  text-align: center;
+}
+
+.formlabel {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: right;
+}
+.formtext {
+  font-size: 1em;
+  text-align: left;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
