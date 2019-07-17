@@ -4,7 +4,7 @@ A clone of the google whatsmyip
 running at:
 https://bork.host/my-ip/
 
-![alt text](screenshot.png "Logo Title Text 1")
+![screenshot here](screenshot.png "Logo Title Text 1")
 
 
 ## TODO
